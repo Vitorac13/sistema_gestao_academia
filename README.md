@@ -8,10 +8,13 @@ Classes:
 * Professor;
 * Treino;
 * exercicio;
+* ficha;
 
 Relacionamentos:
 * Um professor pode ter varios alunos -> associação;
 * Um treino pode incluir varios exercicios -> associação;
+* um aluno pode ter somente uma ficha -> associação;
+* uma ficha pode ter varios treinos -> associação;
 
 Relacionamentos:
 Regras de negócio (implementar):
