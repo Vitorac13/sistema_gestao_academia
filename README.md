@@ -4,6 +4,15 @@ Descrição: Sistema destinado ao gerenciamento de uma academia, permitindo cont
 
 O sistema deverá permitir:
 Classes:
+* Aluno;
+* Professor;
+* Treino;
+* exercicio;
+
+Relacionamentos:
+* Um professor pode ter varios alunos -> associação;
+* Um treino pode incluir varios exercicios -> associação;
+
 Relacionamentos:
 Regras de negócio (implementar):
 * Não permitir o cadastro de aluno sem nome e CPF;
