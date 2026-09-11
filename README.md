@@ -24,3 +24,7 @@ Regras de negócio (implementar):
 * Não permitir que um exercício seja incluído duas vezes na mesma ficha de treino;
 * Um professor poderá ser responsável por vários alunos;
 * Ao cadastrar um exercício em um treino, deverão ser informadas as séries e repetições.
+
+alterei
+
+aaaa
