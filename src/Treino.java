@@ -1,13 +1,15 @@
+import Exercicio;
+
 public class Treino {
     public String nome;
-    public List<exercicios> carga;
+    public List<Exercicios> carga;
 
-    public Treino(String nome, List<exercicios> carga){
+    public Treino(String nome, List<Exercicios> carga){
         setNome(nome);
         setCarga(carga);
     }
 
-    public void setCarga(List<exercicios> carga) {
+    public void setCarga(List<Exercicios> carga) {
         this.carga = carga;
     }
 

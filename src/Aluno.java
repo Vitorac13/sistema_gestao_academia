@@ -1,26 +1,46 @@
+import Treino;
+
 public class Aluno{
     private String nome;
     private String cpf;
     private ficha ficha;
 
-    public void setCpf(String cpf) {
+    private void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public void setNome(String nome) {
+    private void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setFicha(ficha ficha) {
+    private void setFicha(ficha ficha) {
         this.ficha = ficha;
     }
 
-    public String getNome() {
+    private String getNome() {
         return nome;
     }
     
-    public ficha getFicha() {
+    private ficha getFicha() {
         return ficha;
+    }
+
+    public Aluno(String nome, String CPF){
+        setNome(nome);
+        setCpf(CPF);
+    }
+
+    public Aluno getDataAluno(){
+        return ;
+    }
+
+    public void inicializarFicha(String cpf_professor,List<Treino> treinos){
+        ficha a = new ficha(cpf_professor,treinos);
+        setFicha(a);
+    }
+
+    public void fecharFicha(){
+        setFicha(null);
     }
 }
 
@@ -28,4 +48,19 @@ class ficha{
     private int id;
     private String cpf_professor;
     private List<Treino> carga;
+
+    public ficha(String cpf_professor,List<Treino> treinos){
+        setCarga(treinos);
+        setCpf_professor(cpf_professor);
+    }
+
+    private void setCarga(List<Treino> carga) {
+        this.carga = carga;
+    }
+
+    private void setCpf_professor(String cpf_professor) {
+        this.cpf_professor = cpf_professor;
+    }
+
+    
 }

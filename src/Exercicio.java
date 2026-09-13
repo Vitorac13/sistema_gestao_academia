@@ -17,24 +17,21 @@ public class Exercicio {
         setRepeticoes(repeticoes);
     }
 
-    public void setSeries(int series) {
+    private void setSeries(int series) {
         this.series = series;
     }
 
-    public void setMaquina(String maquina) {
+    private void setMaquina(String maquina) {
         this.maquina = maquina;
     }
-    public void setNome(string nome) {
+    private void setNome(string nome) {
         this.nome = nome;
     }
-    public void setRepeticoes(int repeticoes) {
+    private void setRepeticoes(int repeticoes) {
         this.repeticoes = repeticoes;
     }
 
-    /*public List getExercicio(){
-        if(!maquina == null){
-            return {nome, series, repeticoes};
-        }
-        return {nome, series, repeticoes, maquina};
-    }*/
+    public Exercicio getExercicio(){
+        return Exercicio;
+    }
 }
