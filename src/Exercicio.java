@@ -1,5 +1,6 @@
 public class Exercicio {
-    private string nome;
+    
+    private String nome;
     private String maquina;
     private int series;
     private int repeticoes;
@@ -31,7 +32,23 @@ public class Exercicio {
         this.repeticoes = repeticoes;
     }
 
+    public String getMaquina() {
+        return maquina;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getRepeticoes() {
+        return repeticoes;
+    }
+
+    public int getSeries() {
+        return series;
+    }
+
     public Exercicio getExercicio(){
-        return Exercicio;
+        return this;
     }
 }

@@ -1,4 +1,4 @@
-import Treino;
+import src.Treino;
 
 public class Aluno{
     private String nome;
@@ -17,21 +17,17 @@ public class Aluno{
         this.ficha = ficha;
     }
 
-    private String getNome() {
+    public String getNome() {
         return nome;
     }
     
-    private ficha getFicha() {
+    public ficha getFicha() {
         return ficha;
     }
 
     public Aluno(String nome, String CPF){
         setNome(nome);
         setCpf(CPF);
-    }
-
-    public Aluno getDataAluno(){
-        return ;
     }
 
     public void inicializarFicha(String cpf_professor,List<Treino> treinos){
@@ -61,6 +57,4 @@ class ficha{
     private void setCpf_professor(String cpf_professor) {
         this.cpf_professor = cpf_professor;
     }
-
-    
 }
