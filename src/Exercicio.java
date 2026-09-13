@@ -1,5 +1,5 @@
 public class Exercicio {
-    
+
     private String nome;
     private String maquina;
     private int series;
@@ -46,9 +46,5 @@ public class Exercicio {
 
     public int getSeries() {
         return series;
-    }
-
-    public Exercicio getExercicio(){
-        return this;
     }
 }

@@ -1,5 +1,5 @@
 public class Professor {
-    
+
     public int id;
     public String nome;
     private String cpf;
@@ -19,9 +19,5 @@ public class Professor {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-    
-    public Professor getProfessor(){
-        return this;
     }
 }

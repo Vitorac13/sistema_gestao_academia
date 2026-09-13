@@ -1,7 +1,7 @@
 import src.Exercicio;
 
 public class Treino {
-    
+
     public String nome;
     public List<Exercicio> carga;
 
